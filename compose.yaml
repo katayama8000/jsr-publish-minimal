@@ -1,0 +1,10 @@
+services:
+  cosense_client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jsr_mininal
+    volumes:
+      - .:/workspace
+    ports:
+      - "8080:8080"
