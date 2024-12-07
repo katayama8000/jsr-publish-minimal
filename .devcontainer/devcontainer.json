@@ -1,7 +1,7 @@
 {
   "name": "Deno",
   "dockerComposeFile": ["../compose.yaml", "compose.yaml"],
-  "service": "jsr_mininal",
+  "service": "meow",
   "workspaceFolder": "/workspace",
   "forwardPorts": [8080],
   "customizations": {

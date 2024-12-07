@@ -1,9 +1,9 @@
 services:
-  cosense_client:
+  meow:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: jsr_mininal
+    container_name: meow
     volumes:
       - .:/workspace
     ports:
